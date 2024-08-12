@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+input{
+    border-radius:15px;
+    border:1px solid #000;
+    background-color: gray;
+    padding:5px;
+    width:90%;
+}
+
+.exp{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    padding:10px;
+  
+}
+.remove{
+    cursor:pointer;
+    position: relative;
+    transform:translateY(15px);
+    background-color: red;
+}
+.form-line{
+    border:1px solid black;
+    width:100%;
+    margin-top:15px;
+
+}

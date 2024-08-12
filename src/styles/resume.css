@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.resume{
+    width:50%;
+    height:90vh;
+    margin-top:20px;
+    border:1px solid black;
+    gap:50px;
+    background-color:white;
+
+}
+.header{
+    height:15%;
+    
+    text-align: center;
+    flex-direction:column;
+    display:flex;
+    justify-content: center;
+}
+.header-details{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+}
+.eduSection{
+   
+    height:15%;
+    padding:20px;
+}
+
+.expSection{
+    
+    height:70%;
+    padding:20px;
+}
+.line{
+    border:1px solid black;
+    width:100%;
+    margin-bottom:5px;
+}
+.top{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+}
+.bottom{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+}
+.tasks{
+    margin-left:20px;
+}
+.jobs{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}

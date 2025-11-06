@@ -2,6 +2,9 @@ import "./App.css"
 import Form from "./components/form"
 import Resume from "./components/resume"
 import {useState} from "react"
+import jsPDF from "jspdf";
+import html2canvas from "html2canvas";
+
 function App(){
 
   const initialGeneralInfo = {
